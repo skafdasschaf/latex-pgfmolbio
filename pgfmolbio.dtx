@@ -6,7 +6,7 @@
 % conditions of the LaTeX Project Public License, either version 1.3c
 % of this license or (at your option) any later version.
 % The latest version of this license is in
-%   http://www.latex-project.org/lppl.txt
+%   https://www.latex-project.org/lppl.txt
 % and version 1.3c or later is part of all distributions of LaTeX
 % version 2008/05/04 or later.
 %
@@ -292,9 +292,9 @@
 % \section{About \texorpdfstring{\pkg{pgfmolbio}}{pgfmolbio}}
 % \label{sec:IntroAbout}
 %
-% Over the decades, \TeX\ has gained popularity across a large number of disciplines. Although originally designed as a mere typesetting system, packages such as \pkg{pgf}\footnote{Tantau, T. (2010). The \TikZ\ and \textsc{pgf} packages. \url{http://ctan.org/tex-archive/graphics/pgf/}.} and \pkg{pstricks}\footnote{van Zandt, T., Niepraschk, R., and Voß, H. (2007). PSTricks: PostScript macros for Generic \TeX. \url{http://ctan.org/tex-archive/graphics/pstricks}.} have strongly extended its \textit{drawing} abilities. Thus, one can create complicated charts that perfectly integrate with the text.
+% Over the decades, \TeX\ has gained popularity across a large number of disciplines. Although originally designed as a mere typesetting system, packages such as \pkg{pgf}\footnote{\url{https://ctan.org/pkg/pgf/}.} and \pkg{pstricks}\footnote{\url{https://ctan.org/pkg/pstricks}.} have strongly extended its \textit{drawing} abilities. Thus, one can create complicated charts that perfectly integrate with the text.
 %
-% Texts on molecular biology include a range of special graphs, e.\,g. multiple sequence alignments, membrane protein topologies, DNA sequencing chromatograms, protein domain diagrams, plasmid maps and others. The \pkg{texshade}\footnote{Beitz, E. (2000). \TeX shade: shading and labeling multiple sequence alignments using \LaTeXe. \textit{Bioinformatics}~\textbf{16}(2), 135--139.\\\url{http://ctan.org/tex-archive/macros/latex/contrib/texshade}.} and \pkg{textopo}\footnote{Beitz, E. (2000). \TeX topo: shaded membrane protein topology plots in \LaTeXe. \textit{Bioinformatics} \textbf{16}(11), 1050--1051.\\\url{http://ctan.org/tex-archive/macros/latex/contrib/textopo}.} packages cover alignments and topologies, respectively, but packages dedicated to the remaining graphs are absent. Admittedly, one may create those images with various external programs and then include them in the \TeX\ document. Nevertheless, purists (like the author of this document) might prefer a \TeX-based approach.
+% Texts on molecular biology include a range of special graphs, e.\,g. multiple sequence alignments, membrane protein topologies, DNA sequencing chromatograms, protein domain diagrams, plasmid maps and others. The \pkg{texshade}\footnote{\url{https://ctan.org/pkg/texshade}.} and \pkg{textopo}\footnote{\url{https://ctan.org/pkg/textopo}.} packages cover alignments and topologies, respectively, but packages dedicated to the remaining graphs are absent. Admittedly, one may create those images with various external programs and then include them in the \TeX\ document. Nevertheless, purists (like the author of this document) might prefer a \TeX-based approach.
 %
 % The \pkg{pgfmolbio} package aims at becoming such a purist solution. In the current development release, \pkg{pgfmolbio} is able to
 % \begin{itemize}
@@ -333,7 +333,7 @@
 % \section{Overview}
 % \label{sec:ChrOverview}
 %
-% The \module{chromatogram} module draws DNA sequencing chromatograms stored in standard chromatogram format (\file{scf}), which was developed by Simon Dear and Rodger Staden\footnote{Dear, S. and Staden, R. (1992). A standard file format for data from DNA sequencing instruments. \textit{DNA Seq.} \textbf{3}(2), 107--110.}. The documentation for the Staden package\footnote{\url{http://staden.sourceforge.net/}} describes the current version of the \file{scf} format in detail. As far as they are crucial to understanding the Lua code, we will discuss some details of this file format in the documented source code (section~\ref{sec:DocChrLua}). Note that \pkg{pgfmolbio} only supports \file{scf} version 3.00.
+% The \module{chromatogram} module draws DNA sequencing chromatograms stored in standard chromatogram format (\file{scf}), which was developed by Simon Dear and Rodger Staden\footnote{Dear, S. and Staden, R. (1992). A standard file format for data from DNA sequencing instruments. \textit{DNA Seq.} \textbf{3}(2), 107--110.}. The documentation for the Staden package\footnote{\url{https://staden.sourceforge.net/}} describes the current version of the \file{scf} format in detail. As far as they are crucial to understanding the Lua code, we will discuss some details of this file format in the documented source code (section~\ref{sec:DocChrLua}). Note that \pkg{pgfmolbio} only supports \file{scf} version 3.00.
 %
 %
 % \section{Drawing Chromatograms}
@@ -724,7 +724,7 @@
 % \section{Overview}
 % \label{sec:DomOverview}
 %
-% Protein domain diagrams appear frequently in databases such as Pfam\footnote{Finn, R.\,D., Mistry, J. \textit{et al.} (2010). The Pfam protein families database. \textit{Nucleic Acids Res.} \textbf{38}, D211--D222.} or \textsc{prosite}\footnote{Sigrist, C.\,J.\,A., Cerutti, L. \textit{et al.} (2010). \textsc{prosite}, a protein domain database for functional characterization and annotation. \textit{Nucleic Acids Res.} \textbf{38}, D161--D166.}. Domain diagrams are often drawn using standard graphics software or tools such as \textsc{prosite}'s MyDomains image creator\footnote{\url{http://prosite.expasy.org/mydomains/}}. However, the \module{domains} module provides an integrated approach for generating domain diagrams from \TeX\ code or from external files.
+% Protein domain diagrams appear frequently in databases such as Pfam\footnote{Finn, R.\,D., Mistry, J. \textit{et al.} (2010). The Pfam protein families database. \textit{Nucleic Acids Res.} \textbf{38}, D211--D222.} or \textsc{prosite}\footnote{Sigrist, C.\,J.\,A., Cerutti, L. \textit{et al.} (2010). \textsc{prosite}, a protein domain database for functional characterization and annotation. \textit{Nucleic Acids Res.} \textbf{38}, D161--D166.}. Domain diagrams are often drawn using standard graphics software or tools such as \textsc{prosite}'s MyDomains image creator\footnote{\url{https://prosite.expasy.org/mydomains/}}. However, the \module{domains} module provides an integrated approach for generating domain diagrams from \TeX\ code or from external files.
 %
 %
 % \section{Domain Diagrams and Their Features}
@@ -2417,7 +2417,7 @@ outputFileId = 0
 % \label{sec:DocChrLua}
 %
 % \def\ydoclistingssettings{\lstset{style=lua-doc}}\setcounter{lstnumber}{1}
-% This Lua script is the true workhorse of the \module{chromatogram} module. Remember that the documentation for the Staden package\footnote{\url{http://staden.sourceforge.net/}} is the definite source for information on the \file{scf} file format.
+% This Lua script is the true workhorse of the \module{chromatogram} module. Remember that the documentation for the Staden package\footnote{\url{https://staden.sourceforge.net/}} is the definite source for information on the \file{scf} file format.
 %    \begin{macrocode}
 if luatexbase then
   luatexbase.provides_module{
@@ -4402,7 +4402,7 @@ end
 % \subsection{Uniprot and GFF Files}
 % \label{ssc:DocDomLuaReadFiles}
 %
-% §Protein:readUniprotFile§ reads the relevant parts of Uniprot file §filename§\footnote{For a detailed description of this format, see \url{http://web.expasy.org/docs/userman.html}.}.
+% §Protein:readUniprotFile§ reads the relevant parts of Uniprot file §filename§\footnote{For a detailed description of this format, see \url{https://web.expasy.org/docs/userman.html}.}.
 %    \begin{macrocode}
 function Protein:readUniprotFile(filename)
   local uniprotFile, errorMsg = io.open(filename, "r")
@@ -4476,7 +4476,7 @@ function Protein:readUniprotFile(filename)
 end
 
 %    \end{macrocode}
-% §Protein:readGffFile§ reads the relevant parts of General Feature Format file §filename§\footnote{For a detailed description of this format, see \url{http://http://www.sanger.ac.uk/resources/software/gff/spec.html}.}.
+% §Protein:readGffFile§ reads the relevant parts of General Feature Format file §filename§\footnote{\url{https://en.wikipedia.org/wiki/General_feature_format}}.
 %    \begin{macrocode}
 function Protein:readGffFile(filename)
   local gffFile, errorMsg = io.open(filename, "r")
